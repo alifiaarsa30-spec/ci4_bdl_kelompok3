@@ -1,0 +1,850 @@
+CRITICAL - 2026-11-10 04:33:32 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:34:46 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:34:47 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:35:53 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:35:54 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:37:37 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:38:35 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:39:28 --> Error: Class "App\Models\ProdukModel" not found
+[Method: GET, Route: praktikum/produk]
+in APPPATH\Controllers\PraktikumController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:42:24 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:50:15 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:50:16 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:51:28 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:51:29 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:55 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:57 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:57 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:58 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:58 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:59 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:59 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:54:59 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:55:00 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:55:00 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 04:55:18 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:16:14 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:23:02 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:23:03 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:23:03 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:29:48 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:34:08 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:34:09 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:34:09 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:34:25 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:38:55 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:38:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:38:56 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:38:57 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:38:57 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:10 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:11 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:11 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:12 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:12 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:19 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:19 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+CRITICAL - 2026-11-10 05:39:19 --> CodeIgniter\Exceptions\CriticalError: The required PHP extension "pgsql" is not loaded. Install and enable it to use "Postgre" driver.
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\Database.php on line 186.
+ 1 SYSTEMPATH\Database\Database.php(61): CodeIgniter\Database\Database->checkDbExtension('Postgre')
+ 2 SYSTEMPATH\Database\Config.php(77): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\PraktikumController.php(15): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 6 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+ERROR - 2026-11-10 05:44:09 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\Postgre\Connection.php:113
+Stack trace:
+#0 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(549): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\app\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+#7 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+#8 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\rewrite.php(44): require_once('C:\\Users\\Alifia...')
+#13 {main}
+CRITICAL - 2026-11-10 05:44:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 600.
+ 1 SYSTEMPATH\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "produk"', [], false)
+ 3 SYSTEMPATH\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+ERROR - 2026-11-10 05:44:10 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\Postgre\Connection.php:113
+Stack trace:
+#0 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(549): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\app\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+#7 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+#8 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\rewrite.php(44): require_once('C:\\Users\\Alifia...')
+#13 {main}
+CRITICAL - 2026-11-10 05:44:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 600.
+ 1 SYSTEMPATH\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "produk"', [], false)
+ 3 SYSTEMPATH\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+ERROR - 2026-11-10 05:44:11 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\Postgre\Connection.php:113
+Stack trace:
+#0 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(549): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\app\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+#7 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+#8 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\rewrite.php(44): require_once('C:\\Users\\Alifia...')
+#13 {main}
+CRITICAL - 2026-11-10 05:44:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 600.
+ 1 SYSTEMPATH\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "produk"', [], false)
+ 3 SYSTEMPATH\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+ERROR - 2026-11-10 05:44:11 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\Postgre\Connection.php:113
+Stack trace:
+#0 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(549): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\app\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+#7 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+#8 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\rewrite.php(44): require_once('C:\\Users\\Alifia...')
+#13 {main}
+CRITICAL - 2026-11-10 05:44:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 600.
+ 1 SYSTEMPATH\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "produk"', [], false)
+ 3 SYSTEMPATH\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+ERROR - 2026-11-10 05:44:12 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\Postgre\Connection.php:113
+Stack trace:
+#0 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(549): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\app\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+#7 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+#8 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Alifia Rosidha Arsa\TugasPerbandingan_Bdl_Kelompok3\system\rewrite.php(44): require_once('C:\\Users\\Alifia...')
+#13 {main}
+CRITICAL - 2026-11-10 05:44:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: praktikum/produk]
+in SYSTEMPATH\Database\BaseConnection.php on line 600.
+ 1 SYSTEMPATH\Database\BaseConnection.php(815): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1660): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "produk"', [], false)
+ 3 SYSTEMPATH\Model.php(256): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PraktikumController.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PraktikumController->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PraktikumController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Alifia Rosidha Arsa\\TugasPerbandingan_Bdl_Kelompok3\\public\\index.php')
+DEBUG - 2026-11-10 05:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 06:32:38 --> ErrorException: Cannot declare class App\Controllers\PenjualanController, because the name is already in use
+[Method: GET, Route: penjualan]
+in APPPATH\Views\penjualan\index.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-11-10 06:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 06:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
