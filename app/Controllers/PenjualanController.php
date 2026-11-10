@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Controllers;
+
 use App\Controllers\BaseController;
 use App\Models\PenjualanModel;
 use App\Models\DetilPenjualanModel;
@@ -11,174 +13,248 @@ class PenjualanController extends BaseController
     public function index()
     {
         $db = \Config\Database::connect();
+
         $penjualan = $db->table('penjualan')
             ->select('penjualan.*, pelanggan.nama_pelanggan')
-            ->join('pelanggan', 'pelanggan.kode_pelanggan = penjualan.kode_pelanggan', 'left')
+            ->join(
+                'pelanggan',
+                'pelanggan.kode_pelanggan = penjualan.kode_pelanggan',
+                'left'
+            )
             ->orderBy('tgl_penjualan', 'DESC')
             ->get()
             ->getResultArray();
 
         return view('penjualan/index', [
-            'title'     => 'Transaksi Penjualan',
-            'subtitle'  => 'Riwayat Penjualan Barang',
+            'title' => 'Transaksi Penjualan',
+            'subtitle' => 'Riwayat Penjualan Barang',
             'penjualan' => $penjualan
         ]);
     }
 
     public function create()
     {
-        $pelangganModel = new PelangganModel();
-        $produkModel = new ProdukModel();
-
         return view('penjualan/create', [
-            'title'     => 'Buat Penjualan Baru',
-            'subtitle'  => 'Form Transaksi Penjualan',
-            'pelanggan' => $pelangganModel->findAll(),
-            'produk'    => $produkModel->findAll()
+            'title' => 'Buat Penjualan Baru',
+            'subtitle' => 'Form Transaksi Penjualan',
+            'pelanggan' => (new PelangganModel())->findAll(),
+            'produk' => (new ProdukModel())->findAll()
         ]);
     }
 
     public function store()
     {
         $db = \Config\Database::connect();
-        $db->transStart(); // Mulai Database Transaction (BEGIN)
+
+        $db->transBegin();
 
         try {
-            $no_penjualan   = $this->request->getPost('no_penjualan');
-            $tgl_penjualan  = $this->request->getPost('tgl_penjualan');
-            $kode_pelanggan = $this->request->getPost('kode_pelanggan');
-            $keterangan     = $this->request->getPost('keterangan');
-            
-            $items          = $this->request->getPost('items'); // Array produk yang dibeli
+            $noPenjualan = trim($this->request->getPost('no_penjualan') ?? '');
+            $tanggal = $this->request->getPost('tgl_penjualan');
+            $kodePelanggan = $this->request->getPost('kode_pelanggan');
+            $keterangan = $this->request->getPost('keterangan');
+            $items = $this->request->getPost('items') ?? [];
 
-            if (empty($items)) {
-                throw new \Exception('Belum ada produk yang dipilih dalam transaksi.');
+            if ($noPenjualan === '' || !$tanggal || !$kodePelanggan) {
+                throw new \Exception('Data transaksi wajib dilengkapi.');
             }
 
-            $total_transaksi = 0;
-            $detilData = [];
-            $produkModel = new ProdukModel();
+            if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $tanggal)) {
+                throw new \Exception('Format tanggal tidak valid.');
+            }
 
-            foreach ($items as $index => $item) {
-                if (empty($item['kode_produk']) || empty($item['jumlah']) || $item['jumlah'] <= 0) {
+            if (!(new PelangganModel())->find($kodePelanggan)) {
+                throw new \Exception('Pelanggan tidak ditemukan.');
+            }
+
+            $produkModel = new ProdukModel();
+            $detilModel = new DetilPenjualanModel();
+            $penjualanModel = new PenjualanModel();
+
+            $detilData = [];
+            $total = 0;
+            $noUrut = 1;
+
+            foreach ($items as $item) {
+                $kodeProduk = trim($item['kode_produk'] ?? '');
+                $jumlah = filter_var(
+                    $item['jumlah'] ?? null,
+                    FILTER_VALIDATE_INT
+                );
+
+                if ($kodeProduk === '' || $jumlah === false || $jumlah < 0) {
+                    throw new \Exception('Kode atau jumlah produk tidak valid.');
+                }
+
+                // Jumlah 0 berarti produk tidak dipilih.
+                if ($jumlah === 0) {
                     continue;
                 }
 
-                $produk = $produkModel->find($item['kode_produk']);
+                $produk = $produkModel->find($kodeProduk);
+
                 if (!$produk) {
-                    throw new \Exception("Produk dengan kode {$item['kode_produk']} tidak ditemukan.");
+                    throw new \Exception(
+                        "Produk dengan kode {$kodeProduk} tidak ditemukan."
+                    );
                 }
 
-                // Validasi Stok
-                if ($produk['stok'] < $item['jumlah']) {
-                    throw new \Exception("Stok produk {$produk['nama_produk']} tidak mencukupi! Sisa stok: {$produk['stok']}");
+                if ($jumlah > (int) $produk['stok']) {
+                    throw new \Exception(
+                        "Stok {$produk['nama_produk']} tidak mencukupi."
+                    );
                 }
 
-                $harga    = $produk['harga_jual'];
-                $jumlah   = (int) $item['jumlah'];
+                $harga = (float) $produk['harga_jual'];
                 $subtotal = $harga * $jumlah;
-                $total_transaksi += $subtotal;
+                $total += $subtotal;
 
-                // Siapkan data detail
                 $detilData[] = [
-                    'no_penjualan' => $no_penjualan,
-                    'no_urut'      => $index + 1,
-                    'kode_produk'  => $item['kode_produk'],
-                    'jumlah'       => $jumlah,
-                    'harga'        => $harga,
-                    'subtotal'     => $subtotal
+                    'no_penjualan' => $noPenjualan,
+                    'no_urut' => $noUrut++,
+                    'kode_produk' => $kodeProduk,
+                    'jumlah' => $jumlah,
+                    'harga' => $harga,
+                    'subtotal' => $subtotal
                 ];
-
-                // Kurangi stok produk secara otomatis
-                $stok_baru = $produk['stok'] - $jumlah;
-                $produkModel->update($item['kode_produk'], ['stok' => $stok_baru]);
             }
 
-            // Simpan Header Penjualan
-            $penjualanModel = new PenjualanModel();
-            $penjualanModel->insert([
-                'no_penjualan'   => $no_penjualan,
-                'tgl_penjualan'  => $tgl_penjualan,
-                'kode_pelanggan' => $kode_pelanggan,
-                'total'          => $total_transaksi,
-                'keterangan'     => $keterangan
-            ]);
+            if (count($detilData) < 2) {
+                throw new \Exception(
+                    'Transaksi harus memiliki minimal 2 jenis produk.'
+                );
+            }
 
-            // Simpan Detail Penjualan
-            $detilModel = new DetilPenjualanModel();
+            // Simpan header penjualan.
+            if (!$penjualanModel->insert([
+                'no_penjualan' => $noPenjualan,
+                'tgl_penjualan' => $tanggal,
+                'kode_pelanggan' => $kodePelanggan,
+                'total' => $total,
+                'keterangan' => $keterangan
+            ])) {
+                throw new \Exception('Gagal menyimpan header penjualan.');
+            }
+
+            // Simpan detail dan kurangi stok.
             foreach ($detilData as $detil) {
-                $detilModel->insert($detil);
-            }
+                if (!$detilModel->insert($detil)) {
+                    throw new \Exception('Gagal menyimpan detail penjualan.');
+                }
 
-            $db->transComplete(); // Selesai & Commit transaksi
+                $stokBaru = (int) $produkModel
+                    ->find($detil['kode_produk'])['stok'] - $detil['jumlah'];
+
+                if (!$produkModel->update(
+                    $detil['kode_produk'],
+                    ['stok' => $stokBaru]
+                )) {
+                    throw new \Exception('Gagal memperbarui stok produk.');
+                }
+            }
 
             if ($db->transStatus() === false) {
-                throw new \Exception('Gagal menyimpan transaksi ke database.');
+                throw new \Exception('Transaksi database gagal.');
             }
 
-            return redirect()->to('/penjualan')->with('success', 'Transaksi penjualan berhasil disimpan dan stok telah diperbarui.');
+            $db->transCommit();
 
-        } catch (\Exception $e) {
-            $db->transRollback(); // Batalkan semua jika ada error (ROLLBACK)
-            return redirect()->back()->withInput()->with('error', $e->getMessage());
+            return redirect()->to('/penjualan')
+                ->with('success', 'COMMIT: Transaksi berhasil disimpan dan stok diperbarui.');
+
+        } catch (\Throwable $e) {
+            $db->transRollback();
+
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'ROLLBACK: ' . $e->getMessage());
         }
     }
 
     public function detail($no_penjualan)
     {
         $db = \Config\Database::connect();
+
         $penjualan = $db->table('penjualan')
             ->select('penjualan.*, pelanggan.nama_pelanggan, pelanggan.alamat, pelanggan.no_telepon')
-            ->join('pelanggan', 'pelanggan.kode_pelanggan = penjualan.kode_pelanggan', 'left')
-            ->where('no_penjualan', $no_penjualan)
+            ->join(
+                'pelanggan',
+                'pelanggan.kode_pelanggan = penjualan.kode_pelanggan',
+                'left'
+            )
+            ->where('penjualan.no_penjualan', $no_penjualan)
             ->get()
             ->getRowArray();
 
+        if (!$penjualan) {
+            return redirect()->to('/penjualan')
+                ->with('error', 'Data penjualan tidak ditemukan.');
+        }
+
         $detil = $db->table('detil_penjualan')
             ->select('detil_penjualan.*, produk.nama_produk, produk.satuan')
-            ->join('produk', 'produk.kode_produk = detil_penjualan.kode_produk', 'left')
-            ->where('no_penjualan', $no_penjualan)
+            ->join(
+                'produk',
+                'produk.kode_produk = detil_penjualan.kode_produk',
+                'left'
+            )
+            ->where('detil_penjualan.no_penjualan', $no_penjualan)
+            ->orderBy('no_urut', 'ASC')
             ->get()
             ->getResultArray();
 
         return view('penjualan/detail', [
-            'title'     => 'Detail Penjualan',
-            'subtitle'  => 'Informasi Rinci Transaksi',
+            'title' => 'Detail Penjualan',
+            'subtitle' => 'Informasi Rinci Transaksi',
             'penjualan' => $penjualan,
-            'detil'     => $detil
+            'detil' => $detil
         ]);
     }
 
     public function delete($no_penjualan)
     {
         $db = \Config\Database::connect();
-        $db->transStart();
+        $db->transBegin();
 
         try {
-            // Ambil data detail untuk mengembalikan stok produk
             $detilModel = new DetilPenjualanModel();
             $produkModel = new ProdukModel();
-            $detilItems = $detilModel->where('no_penjualan', $no_penjualan)->findAll();
+            $penjualanModel = new PenjualanModel();
+
+            $detilItems = $detilModel
+                ->where('no_penjualan', $no_penjualan)
+                ->findAll();
 
             foreach ($detilItems as $item) {
                 $produk = $produkModel->find($item['kode_produk']);
+
                 if ($produk) {
-                    $stok_kembali = $produk['stok'] + $item['jumlah'];
-                    $produkModel->update($item['kode_produk'], ['stok' => $stok_kembali]);
+                    $stokBaru = (int) $produk['stok'] + (int) $item['jumlah'];
+
+                    $produkModel->update(
+                        $item['kode_produk'],
+                        ['stok' => $stokBaru]
+                    );
                 }
             }
 
-            // Hapus detail & header
             $detilModel->where('no_penjualan', $no_penjualan)->delete();
-            $penjualanModel = new PenjualanModel();
             $penjualanModel->delete($no_penjualan);
 
-            $db->transComplete();
+            if ($db->transStatus() === false) {
+                throw new \Exception('Gagal menghapus transaksi.');
+            }
 
-            return redirect()->to('/penjualan')->with('success', 'Transaksi penjualan berhasil dihapus dan stok dikembalikan.');
-        } catch (\Exception $e) {
+            $db->transCommit();
+
+            return redirect()->to('/penjualan')
+                ->with('success', 'Transaksi dihapus dan stok dikembalikan.');
+
+        } catch (\Throwable $e) {
             $db->transRollback();
-            return redirect()->to('/penjualan')->with('error', 'Gagal menghapus transaksi: ' . $e->getMessage());
+
+            return redirect()->to('/penjualan')
+                ->with('error', 'Gagal menghapus transaksi: ' . $e->getMessage());
         }
     }
 }

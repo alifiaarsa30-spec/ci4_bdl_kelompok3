@@ -1,71 +1,259 @@
+
 <?= $this->extend('layout/main') ?>
 
 <?= $this->section('content') ?>
 
-<div class="row justify-content-center">
-    <div class="col-lg-8">
-        <div class="card border-0 shadow-sm">
-            <div class="card-header bg-white py-3">
-                <h5 class="mb-0 fw-bold text-secondary"><i class="fa-solid fa-circle-plus me-2 text-success"></i> Form Tambah Produk</h5>
-            </div>
-            <div class="card-body">
-                <?php if (session()->has('errors')) : ?>
-                    <div class="alert alert-danger">
-                        <ul class="mb-0">
-                            <?php foreach (session()->get('errors') as $error) : ?>
-                                <li><?= esc($error) ?></li>
-                            <?php endforeach ?>
-                        </ul>
-                    </div>
-                <?php endif ?>
+<style>
+    .form-page {
+        max-width: 780px;
+        margin: 0 auto;
+        color: #303B32;
+    }
 
-                <form action="<?= base_url('/produk/store') ?>" method="post">
-                    <?= csrf_field() ?>
+    .form-heading {
+        margin-bottom: 22px;
+    }
 
-                    <div class="mb-3">
-                        <label class="form-label fw-semibold">Kode Produk (PK)</label>
-                        <input type="text" name="kode_produk" class="form-control" value="<?= old('kode_produk') ?>" placeholder="Contoh: P001" required>
-                    </div>
+    .form-heading h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
 
-                    <div class="mb-3">
-                        <label class="form-label fw-semibold">Nama Produk</label>
-                        <input type="text" name="nama_produk" class="form-control" value="<?= old('nama_produk') ?>" placeholder="Contoh: Minyak Goreng 2L" required>
-                    </div>
+    .form-heading p {
+        color: #777D75;
+        font-size: 14px;
+        margin: 0;
+    }
 
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label fw-semibold">Satuan</label>
-                            <input type="text" name="satuan" class="form-control" value="<?= old('satuan') ?>" placeholder="Contoh: Pcs / Dus / Liter" required>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label fw-semibold">Stok Awal</label>
-                            <input type="number" name="stok" class="form-control" value="<?= old('stok', 0) ?>" required>
-                        </div>
-                    </div>
+    .form-card {
+        background: #FFFFFF;
+        border: 1px solid #EAE9E2;
+        border-radius: 10px;
+        padding: 26px;
+    }
 
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label fw-semibold">Harga Beli (Rp)</label>
-                            <input type="number" name="harga_beli" class="form-control" value="<?= old('harga_beli') ?>" placeholder="Contoh: 15000" required>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label fw-semibold">Harga Jual (Rp)</label>
-                            <input type="number" name="harga_jual" class="form-control" value="<?= old('harga_jual') ?>" placeholder="Contoh: 18000" required>
-                        </div>
-                    </div>
+    .form-card-title {
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #EAE9E2;
+    }
 
-                    <div class="mb-3">
-                        <label class="form-label fw-semibold">Deskripsi (Opsional)</label>
-                        <textarea name="deskripsi" class="form-control" rows="3" placeholder="Keterangan singkat produk..."><?= old('deskripsi') ?></textarea>
-                    </div>
+    .form-field {
+        margin-bottom: 18px;
+    }
 
-                    <div class="d-flex justify-content-between">
-                        <a href="<?= base_url('/produk') ?>" class="btn btn-secondary"><i class="fa-solid fa-arrow-left me-1"></i> Kembali</a>
-                        <button type="submit" class="btn btn-success"><i class="fa-solid fa-save me-1"></i> Simpan Produk</button>
-                    </div>
-                </form>
-            </div>
+    .form-field label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 7px;
+        color: #465047;
+    }
+
+    .form-field input,
+    .form-field textarea {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #EAE9E2;
+        border-radius: 7px;
+        background: #FFFFFF;
+        color: #303B32;
+        font-family: inherit;
+        font-size: 14px;
+    }
+
+    .form-field input:focus,
+    .form-field textarea:focus {
+        outline: none;
+        border-color: #465748;
+        box-shadow: 0 0 0 2px rgba(70, 87, 72, .10);
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .form-error {
+        background: #F5E8E4;
+        color: #963F35;
+        padding: 13px 16px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .form-footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 25px;
+        padding-top: 20px;
+        border-top: 1px solid #EAE9E2;
+    }
+
+    .form-button {
+        display: inline-block;
+        border: none;
+        border-radius: 7px;
+        padding: 10px 17px;
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .form-button-back {
+        background: #EAE9E2;
+        color: #303B32;
+    }
+
+    .form-button-save {
+        background: #465748;
+        color: #FFFFFF;
+    }
+
+    .form-button-save:hover {
+        background: #303B32;
+        color: #FFFFFF;
+    }
+
+    @media (max-width: 600px) {
+        .form-card {
+            padding: 18px;
+        }
+
+        .form-grid {
+            grid-template-columns: 1fr;
+            gap: 0;
+        }
+    }
+</style>
+
+<div class="form-page">
+
+    <div class="form-heading">
+        <h2>Tambah Produk</h2>
+        <p>Masukkan informasi produk baru ke dalam sistem.</p>
+    </div>
+
+    <div class="form-card">
+
+        <div class="form-card-title">
+            <i class="fa-solid fa-circle-plus me-2"></i>
+            Informasi Produk
         </div>
+
+        <?php if (session()->has('errors')) : ?>
+            <div class="form-error">
+                <strong>Periksa kembali data berikut:</strong>
+                <ul class="mb-0 mt-2">
+                    <?php foreach (session()->get('errors') as $error) : ?>
+                        <li><?= esc($error) ?></li>
+                    <?php endforeach ?>
+                </ul>
+            </div>
+        <?php endif ?>
+
+        <form action="<?= base_url('/produk/store') ?>" method="post">
+            <?= csrf_field() ?>
+
+            <div class="form-field">
+                <label>Kode Produk</label>
+                <input
+                    type="text"
+                    name="kode_produk"
+                    value="<?= esc(old('kode_produk')) ?>"
+                    placeholder="Contoh: P006"
+                    required
+                >
+            </div>
+
+            <div class="form-field">
+                <label>Nama Produk</label>
+                <input
+                    type="text"
+                    name="nama_produk"
+                    value="<?= esc(old('nama_produk')) ?>"
+                    placeholder="Masukkan nama produk"
+                    required
+                >
+            </div>
+
+            <div class="form-grid">
+                <div class="form-field">
+                    <label>Satuan</label>
+                    <input
+                        type="text"
+                        name="satuan"
+                        value="<?= esc(old('satuan')) ?>"
+                        placeholder="Pcs / Dus / Liter"
+                        required
+                    >
+                </div>
+
+                <div class="form-field">
+                    <label>Stok Awal</label>
+                    <input
+                        type="number"
+                        name="stok"
+                        min="0"
+                        value="<?= esc(old('stok', '0')) ?>"
+                        required
+                    >
+                </div>
+            </div>
+
+            <div class="form-grid">
+                <div class="form-field">
+                    <label>Harga Beli (Rp)</label>
+                    <input
+                        type="number"
+                        name="harga_beli"
+                        min="0"
+                        value="<?= esc(old('harga_beli')) ?>"
+                        placeholder="Contoh: 15000"
+                        required
+                    >
+                </div>
+
+                <div class="form-field">
+                    <label>Harga Jual (Rp)</label>
+                    <input
+                        type="number"
+                        name="harga_jual"
+                        min="0"
+                        value="<?= esc(old('harga_jual')) ?>"
+                        placeholder="Contoh: 18000"
+                        required
+                    >
+                </div>
+            </div>
+
+            <div class="form-field">
+                <label>Deskripsi (Opsional)</label>
+                <textarea
+                    name="deskripsi"
+                    rows="3"
+                    placeholder="Keterangan singkat produk..."
+                ><?= esc(old('deskripsi')) ?></textarea>
+            </div>
+
+            <div class="form-footer">
+                <a href="<?= base_url('/produk') ?>" class="form-button form-button-back">
+                    <i class="fa-solid fa-arrow-left me-1"></i> Kembali
+                </a>
+
+                <button type="submit" class="form-button form-button-save">
+                    <i class="fa-solid fa-save me-1"></i> Simpan Produk
+                </button>
+            </div>
+        </form>
+
     </div>
 </div>
 

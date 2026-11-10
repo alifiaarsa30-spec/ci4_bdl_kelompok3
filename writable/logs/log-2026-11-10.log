@@ -848,3 +848,165 @@ DEBUG - 2026-11-10 06:43:24 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2026-11-10 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-11-10 06:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-11-10 06:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 13:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-10 14:41:07 --> pg_query(): Query failed: ERROR:  value too long for type character varying(15)
+in SYSTEMPATH\Database\Postgre\Connection.php on line 210.
+ 1 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 153500, \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(845): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 153500, \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2362): CodeIgniter\Database\BaseConnection->query('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (:no_penjualan:, :tgl_penjualan:, :kode_pelanggan:, :total:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(358): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(671): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PenjualanController.php(129): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PenjualanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bdl_kelompok3\\public\\index.php')
+DEBUG - 2026-11-10 14:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-10 14:41:23 --> pg_query(): Query failed: ERROR:  value too long for type character varying(15)
+in SYSTEMPATH\Database\Postgre\Connection.php on line 210.
+ 1 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 9500, \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(845): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 9500, \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2362): CodeIgniter\Database\BaseConnection->query('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (:no_penjualan:, :tgl_penjualan:, :kode_pelanggan:, :total:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(358): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(671): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PenjualanController.php(129): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PenjualanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bdl_kelompok3\\public\\index.php')
+DEBUG - 2026-11-10 14:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-10 14:42:15 --> pg_query(): Query failed: ERROR:  value too long for type character varying(15)
+in SYSTEMPATH\Database\Postgre\Connection.php on line 210.
+ 1 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 9500, \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(845): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 9500, \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2362): CodeIgniter\Database\BaseConnection->query('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (:no_penjualan:, :tgl_penjualan:, :kode_pelanggan:, :total:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(358): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(671): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PenjualanController.php(129): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PenjualanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bdl_kelompok3\\public\\index.php')
+DEBUG - 2026-11-10 14:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-10 14:42:27 --> pg_query(): Query failed: ERROR:  value too long for type character varying(15)
+in SYSTEMPATH\Database\Postgre\Connection.php on line 210.
+ 1 SYSTEMPATH\Database\BaseConnection.php(928): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 155000, \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(845): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (\'UJI-COMMIT-20261110\', \'2026-11-10\', \'C001\', 155000, \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2362): CodeIgniter\Database\BaseConnection->query('INSERT INTO "penjualan" ("no_penjualan", "tgl_penjualan", "kode_pelanggan", "total", "keterangan") VALUES (:no_penjualan:, :tgl_penjualan:, :kode_pelanggan:, :total:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(358): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(671): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\PenjualanController.php(129): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PenjualanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bdl_kelompok3\\public\\index.php')
+DEBUG - 2026-11-10 14:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 14:56:33 --> Error: Class "App\Models\PelangganModel" not found
+[Method: GET, Route: penjualan/create]
+in APPPATH\Controllers\PenjualanController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\PenjualanController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ci4_bdl_kelompok3\\public\\index.php')
+DEBUG - 2026-11-10 14:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 14:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
