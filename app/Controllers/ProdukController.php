@@ -18,13 +18,8 @@ class ProdukController extends BaseController
     {
         $keyword = $this->request->getGet('keyword');
         
-        if ($keyword) {
-            $produk = $this->produkModel->like('nama_produk', $keyword)
-                                        ->orLike('kode_produk', $keyword)
-                                        ->findAll();
-        } else {
-            $produk = $this->produkModel->findAll();
-        }
+        // Memanggil fungsi search dari ProdukModel
+        $produk = $this->produkModel->search($keyword);
 
         $data = [
             'title'    => 'Manajemen Produk',
@@ -39,8 +34,8 @@ class ProdukController extends BaseController
     public function create()
     {
         $data = [
-            'title'    => 'Tambah Produk',
-            'subtitle' => 'Form Input Produk Baru',
+            'title'      => 'Tambah Produk',
+            'subtitle'   => 'Form Input Produk Baru',
             'validation' => \Config\Services::validation()
         ];
 

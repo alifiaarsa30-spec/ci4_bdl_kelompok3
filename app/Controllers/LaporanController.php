@@ -7,7 +7,6 @@ class LaporanController extends BaseController
     public function index()
     {
         $db = \Config\Database::connect();
-
         // 1. Produk Paling Banyak Terjual (GROUP BY & SUM)
         $produk_terlaris = $db->table('detil_penjualan')
             ->select('produk.nama_produk, SUM(detil_penjualan.jumlah) as total_terjual, SUM(detil_penjualan.subtotal) as total_pendapatan')
